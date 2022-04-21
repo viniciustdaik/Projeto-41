@@ -209,4 +209,6 @@ class Game{
             obstacle.scale = 0.15;
             obstacleGroup.add(obstacle);
     }
+    
 }
+
