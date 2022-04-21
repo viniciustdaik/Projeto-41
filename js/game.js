@@ -110,7 +110,7 @@ class Game{
                 }
             
                  if (frameCount % 20 === 0) {
-                     fruits = createSprite(random(100, width), 0, 100, 100);//100, 1000
+                     fruits = createSprite(random(10, width - 10), 0, 100, 100);//100, 1000
                      fruits.velocityY = 6;
                      var rand = Math.round(random(1, 5));
                      switch(rand){
@@ -196,7 +196,7 @@ class Game{
     {       
             var x, y;
             //x= 200;
-            x = random(0, width-100);
+            x = random(10, width - 10);//0, width - 100
 
 
             
